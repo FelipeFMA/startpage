@@ -127,9 +127,9 @@ const default_config = {
           name: "felipao",
           links: [
             {
-              name: "...",
-              url: "...",
-              icon: "...",
+              name: "Portainer",
+              url: "https://134.65.28.106:9443/#!/home",
+              icon: "brand-docker",
               icon_color: palette.peach,
             },
           ],
