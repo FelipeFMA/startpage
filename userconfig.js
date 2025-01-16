@@ -20,7 +20,7 @@ const default_config = {
       background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
-          name: "bookmarks",
+          name: "Most Used",
           links: [
             {
               name: "Gmail",
@@ -29,15 +29,15 @@ const default_config = {
               icon_color: palette.green,
             },
             {
-              name: "Spotify;",
-              url: "https://open.spotify.com/intl-pt",
-              icon: "brand-spotify",
+              name: "Youtube",
+              url: "https://www.youtube.com/",
+              icon: "brand-youtube",
               icon_color: palette.peach,
             },
             {
-              name: "Whatsapp;",
-              url: "https://open.spotify.com/intl-pt",
-              icon: "brand-spotify",
+              name: "Whatsapp",
+              url: "https://web.whatsapp.com/",
+              icon: "brand-whatsapp",
               icon_color: palette.peach,
             },
           ],
