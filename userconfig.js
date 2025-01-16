@@ -39,6 +39,7 @@ const default_config = {
               url: "https://open.spotify.com/intl-pt",
               icon: "brand-spotify",
               icon_color: palette.peach,
+            },
           ],
         },
         {
