@@ -130,8 +130,15 @@ const default_config = {
               name: "Portainer",
               url: "https://134.65.28.106:9443/#!/home",
               icon: "brand-docker",
-              icon_color: palette.peach,
+              icon_color: palette.blue,
             },
+            {
+              name: "Crafty",
+              url: "https://134.65.28.106:8443",
+              icon: "brand-minecraft",
+              icon_color: palette.green,
+            },
+
           ],
         },
         {
