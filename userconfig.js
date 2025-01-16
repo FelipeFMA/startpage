@@ -16,24 +16,29 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "to-do",
-      background_url: "src/img/banners/cbg-9.gif",
+      name: "Myself",
+      background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
             {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
+              name: "Gmail",
+              url: "https://mail.google.com/mail/u/0/?pli=1#inbox",
+              icon: "brand-gmail",
               icon_color: palette.green,
             },
             {
-              name: "musicForProgramming();",
-              url: "https://musicforprogramming.net",
-              icon: "binary-tree",
+              name: "Spotify;",
+              url: "https://open.spotify.com/intl-pt",
+              icon: "brand-spotify",
               icon_color: palette.peach,
             },
+            {
+              name: "Whatsapp;",
+              url: "https://open.spotify.com/intl-pt",
+              icon: "brand-spotify",
+              icon_color: palette.peach,
           ],
         },
         {
