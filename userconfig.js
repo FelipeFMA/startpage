@@ -113,6 +113,17 @@ const default_config = {
       background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
+          name: "Oracle",
+          links: [
+            {
+              name: "Oracle Cloud Infrastructure",
+              url: "https://www.oracle.com/br/cloud/sign-in.html",
+              icon: "server-2",
+              icon_color: palette.peach,
+            },
+          ],
+        },
+        {
           name: "felipao",
           links: [
             {
