@@ -4,7 +4,7 @@ const palette = mocha;
 const default_config = {
   overrideStorage: true,
   temperature: {
-    location: "Franca, SP",
+    location: "Franca, BR",
     scale: "C",
   },
   clock: {
@@ -16,7 +16,7 @@ const default_config = {
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "to-do",
       background_url: "src/img/banners/cbg-9.gif",
       categories: [
         {
@@ -37,7 +37,7 @@ const default_config = {
           ],
         },
         {
-          name: "workspace",
+          name: "to-do",
           links: [
             {
               name: "gmail",
@@ -66,7 +66,7 @@ const default_config = {
           ],
         },
         {
-          name: "media",
+          name: "to-do",
           links: [
             {
               name: "уп",
@@ -103,7 +103,7 @@ const default_config = {
       ],
     },
     {
-      name: "dev",
+      name: "to-do",
       background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
@@ -130,7 +130,7 @@ const default_config = {
           ],
         },
         {
-          name: "challenges",
+          name: "to-do",
           links: [
             {
               name: "kaggle",
@@ -159,7 +159,7 @@ const default_config = {
           ],
         },
         {
-          name: "resources",
+          name: "to-do",
           links: [
             {
               name: "dou",
@@ -190,7 +190,7 @@ const default_config = {
       ],
     },
     {
-      name: "chi ll",
+      name: "to-do",
       background_url: "src/img/banners/cbg-10.gif",
       categories: [
         {
