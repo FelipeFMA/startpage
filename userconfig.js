@@ -17,7 +17,7 @@ const default_config = {
   tabs: [
     {
       name: "Myself",
-      background_url: "src/img/banners/cbg-10.gif",
+      background_url: "src/img/banners/cbg-2.gif",
       categories: [
         {
           name: "Most Used",
@@ -109,86 +109,33 @@ const default_config = {
       ],
     },
     {
-      name: "to-do",
+      name: "Server",
       background_url: "src/img/banners/cbg-8.gif",
       categories: [
         {
-          name: "development",
+          name: "felipao",
           links: [
             {
-              name: "github",
-              url: "https://github.com",
-              icon: "brand-github",
-              icon_color: palette.green,
-            },
-            {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
+              name: "...",
+              url: "...",
+              icon: "...",
               icon_color: palette.peach,
-            },
-            {
-              name: "stackoverflow",
-              url: "https://stackoverflow.com",
-              icon: "brand-stackoverflow",
-              icon_color: palette.red,
             },
           ],
         },
         {
-          name: "to-do",
+          name: "avavelar",
           links: [
             {
-              name: "kaggle",
-              url: "https://www.kaggle.com",
-              icon: "brain",
+              name: "qBittorrent",
+              url: "http://204.216.164.72:1337",
+              icon: "skull",
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
-              url: "https://leetcode.com",
-              icon: "code-plus",
-              icon_color: palette.peach,
-            },
-            {
-              name: "exercism",
-              url: "https://exercism.org",
-              icon: "code-minus",
-              icon_color: palette.red,
-            },
-            {
-              name: "aoc",
-              url: "https://adventofcode.com",
-              icon: "brand-linktree",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "to-do",
-          links: [
-            {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
-              name: "hackernews",
-              url: "https://news.ycombinator.com",
-              icon: "brand-redhat",
-              icon_color: palette.peach,
-            },
-            {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
-              icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
+              name: "Portainer",
+              url: "https://204.216.164.72:9443",
+              icon: "brand-docker",
               icon_color: palette.blue,
             },
           ],
@@ -196,86 +143,39 @@ const default_config = {
       ],
     },
     {
-      name: "to-do",
-      background_url: "src/img/banners/cbg-10.gif",
+      name: "Study",
+      background_url: "src/img/banners/cbg-6.gif",
       categories: [
         {
-          name: "social media",
+          name: "Unifran",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
+              name: "Área do Aluno",
+              url: "https://novoportal.cruzeirodosul.edu.br/?token=eyJhbGciOiJSU0EtT0FFUCIsImVuYyI6IkExMjhDQkMtSFMyNTYiLCJ4NXQiOiJISVdKdzZNcUJYNXRqWVljTDdHM3hCVTBxUEEiLCJ6aXAiOiJERUYifQ.m30wy1lMzrZfnqUVoz8jx5yp__oCt2JJp7G_v0nTqHWZV7ItjBKuf2_WnVequGTqISM3VFlfx8OSL-Do5nyEmZbS2iAAU_YbXFx8xFk3L4HfdQS9Vvn9HBaZ4TWJNO6yeSzm7m_i3Mp_mb9zxcAx7WlsK12ePrBfIoijt_h-h8pozbMkMaRYRu7q7m8zncLo3xOr9ErsiWYBuHvDlKUfzybyXS7Damxgt16Fs2VUvjGJmmkohBmZy_CA09ReqwqUi9HnZNREcvP58DvyWWSwDqnRnh-xTif24JBWvcJ460LtQDeuDQ8Mqhyt6hQYY1nXx-UkT6t8Xo_WylpwyK_LlQ.CSmCCRZK5RotiySlAUTKmw._NXgpBV53GP3-1N1oDdcoSN96YoO4BvmDf9r4iDvv4NQ-ScUGJl0uI7KDHWDz8gEq7Lt8dYIitT8RWg6pxQWqX0m5ggRLjbH7Vrrb501PjmB4l21B2E_Mc6ZRJLj2H6R8QXIG32FefQxOjyjBiukqV2A5MPjcwLLL5NESXkqiGGKieliFdEGstVwr4RFYmkEMwUEq-N3khv4JShTGZL3KCjFd3n_-XphWrvUZsFBpwXrMGwoCVUiXZeR7F6ak2GwGZa6iINZHrABG0LPbXUW64czU3cGkgxZqBP9VhuvMlTimy2cHmDch_peHreQSGNenmwhrgmen_e-fbXl2OWig95bgYQ4hKswh0hNIIOU6Q9Lql4dkekHVO-wCK3HOFP4Jx3HWXmKVotSFwyXpz5dHvbJ2ZTUsx0uevoZPIKKZgHzEqIo0K4JMkzzDe2ZuisocHYBLnMk5fLhyN6plHEE5zmGWyQSW2jjvW8bkfFdlC3GLqSdXPVl3LnYMlU7hnY5yQlVOwhgz7GNYp_cAWsn5gRe3DYLdC5WMa6ClntjqLpwPLd1A4-QSZ9mjWT7fdWo2oPWMFDfAyaYLS3Cfkexrek6wuejeTa1V_OwhJDWO-2hrPZSX0FUsraG8KxpJZQfhtF4URzN_K5leN01HcmXSFgUd8snHhijNmP-6FM3BBtPp1aZqlvwW-CvUTHcfBMdCVeqajree0yaroVxzoHOMWbXWVlrady8yIggIQ5Lyh6zcE-xL0ARAeVSm7vxXfeukZUQnelDyqpkaykySAea4_1J8XMJtVKqEHfOjAOHfMasNxdaF06f_vWzF4fzdalbcoo4sEInml8-LuIVPb01W8ux5pOM8Ati9PvXR1bmdo7hP_eNAoB4akUhKk1F3lQ0rt_FtHaeXo9aWqhXKlWRsavkCBJ257_SLb9YGg8vfiBUK1ebOlkAQ2CR7Js7iienrHuTIf_Aren6LV1l3jbPk6-DPzGW69P7mY4C0fys5N9BT0uRE8P-faskSw8DWwfFvrvHOiaSRnMFfJ3JiZ-3neT-UTmyBBaTzoQJN33JYtGJtmJg1FRlOEv1Q6YmB6TEaQKQI8by1wOZq-ZBI8A-1rvZKjDHSBURWkvy_r8acRxHxwpwMr4nkIxtbWRCHB9wA4npffEQUM7DVM-8DMpjTxfWpZ85jcfXgDIIiMgLUKV3dTKKlJSMh8b_veXNlyM_XV_Qz7aPsL7DoBSUM8LksWr6cTdxAYHOwdvJtfVJFukKLG6YY1_LHDhGllTYk-XRKHWzp7lus_JnASm77-Bg49E3FXJN-OpKWoerdcATK3y_041fmrHtYxyOPNJG8nLsOBXLuapl-iWLF94l0oaRTzvYGzcAJC0aefX7GmKW455lpKdgwKjGDnGRqZRRlLcP-iqxzhNt7cQNXvgNMnS2H4n8-SxyQieOkPIzmg7BxtCRuIS-4AZJ3FFAYL2iI2u9NGRNpsSGPWOJ6XUkjye_6A.cYAEAOPRA60sxZjY5S9pVA&empresa=unifran",
+              icon: "pencil",
               icon_color: palette.green,
             },
             {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
+              name: "Office365",
+              url: "https://m365.cloud.microsoft/?auth=2",
+              icon: "brand-office",
               icon_color: palette.peach,
             },
             {
-              name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
-              icon: "brand-reddit",
+              name: "OneDrive",
+              url: "https://acadcruzeirodosul-my.sharepoint.com/",
+              icon: "brand-onedrive",
               icon_color: palette.red,
             },
           ],
         },
         {
-          name: "gaming",
+          name: "Other",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.green,
-            },
-            {
-              name: "steam",
-              url: "https://store.steampowered.com",
-              icon: "brand-steam",
-              icon_color: palette.peach,
-            },
-            {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
-            },
-          ],
-        },
-        {
-          name: "video",
-          links: [
-            {
-              name: "anilist",
-              url: "https://anilist.co/home",
-              icon: "brand-funimation",
-              icon_color: palette.green,
-            },
-            {
-              name: "youtube",
-              url: "https://www.youtube.com",
-              icon: "brand-youtube",
-              icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
+              name: "Learn C++",
+              url: "https://www.learncpp.com/",
+              icon: "brand-cpp",
               icon_color: palette.blue,
             },
           ],
